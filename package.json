@@ -1,0 +1,54 @@
+{
+  "name": "boilerplate",
+  "version": "2.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server | pino-pretty",
+    "build": "npm run build:css",
+    "browser-sync": "browser-sync start --config bs-config.js",
+    "build:css": "postcss resources/css/**/*.css --base resources/ --dir public/ --watch",
+    "test:mongoose": "tap tests/mongoose.js"
+  },
+  "license": "ISC",
+  "repository": "gitlab:instrumental21/boilerplate",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "@fastify/autoload": "^5.7.1",
+    "@fastify/jwt": "^7.2.0",
+    "@fastify/sensible": "^5.2.0",
+    "@fastify/static": "^6.10.2",
+    "@fastify/view": "^8.0.0",
+    "@hubspot/api-client": "^9.1.1",
+    "@tailwindcss/forms": "^0.4.0",
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "env-schema": "^5.2.0",
+    "express": "^4.19.2",
+    "fastify": "^4.21.0",
+    "fastify-plugin": "^4.5.1",
+    "fastify-raw-body": "^4.2.2",
+    "i18next": "^23.5.1",
+    "i18next-fs-backend": "^2.2.0",
+    "i18next-http-middleware": "^3.4.0",
+    "moment": "^2.29.4",
+    "mongoose": "^7.4.3",
+    "node-fetch": "^3.3.2",
+    "qs": "^6.12.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "browser-sync": "^2.29.3",
+    "cssnano": "^6.0.1",
+    "nodemon": "^3.0.1",
+    "pino-pretty": "^10.2.0",
+    "postcss": "^8.4.28",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.3.3",
+    "tap": "^16.3.8"
+  }
+}

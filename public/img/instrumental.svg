@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 29</title>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-29">
+            <rect id="Rectangle" fill="#0066FF" x="0" y="0" width="64" height="64"></rect>
+            <g id="Group-22" transform="translate(9.000000, 7.000000)" fill="#CCFF00">
+                <polygon id="Fill-14" points="0 45 10.7608696 45 10.7608696 12.7173913 0 12.7173913"></polygon>
+                <polygon id="Fill-15" points="30.326087 45 19.7864081 45 12.7173913 12.7173913 23.2570701 12.7173913"></polygon>
+                <polygon id="Fill-16" points="45 45 34.4603212 45 27.3913043 12.7173913 37.9309832 12.7173913"></polygon>
+                <path d="M5.38043478,0 C2.40871992,0 0,2.40871992 0,5.38043478 C0,8.35214965 2.40871992,10.7608696 5.38043478,10.7608696 C8.35214965,10.7608696 10.7608696,8.35214965 10.7608696,5.38043478 C10.7608696,2.40871992 8.35214965,0 5.38043478,0" id="Fill-17"></path>
+            </g>
+        </g>
+    </g>
+</svg>

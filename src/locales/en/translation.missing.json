@@ -1,0 +1,14 @@
+{
+  "crm": {
+    "card": {
+      "cta": {
+        "give-feedback": "crm.card.cta.give-feedback"
+      }
+    }
+  },
+  "duplicate": {
+    "welcome": {
+      "view-title": "duplicate.welcome.view-title"
+    }
+  }
+}
